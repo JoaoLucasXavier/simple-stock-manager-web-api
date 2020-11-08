@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DevIO.Business/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "9.1.3"
+        },
+        "runtime": {
+          "DevIO.Business.dll": {}
+        }
+      },
+      "FluentValidation/9.1.3": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.1.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DevIO.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/9.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3YctqJSe80I+lQqdhW3WKni6l3vHMzne1KK93lb/GN0BkEy7x3QNnVh+9qFkvDPn806L+8skpI0+dhj/w0BDuA==",
+      "path": "fluentvalidation/9.1.3",
+      "hashPath": "fluentvalidation.9.1.3.nupkg.sha512"
+    }
+  }
+}
