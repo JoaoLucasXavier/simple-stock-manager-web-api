@@ -98,7 +98,6 @@ namespace DevIO.Business.Models.Validations.Documentos
         }
     }
 
-    // Validação do "DigitoVerificador" conforme a documentação emitida pelo responsável que emite os documentos(cpf, cnpj)
     public class DigitoVerificador
     {
         private string _numero;

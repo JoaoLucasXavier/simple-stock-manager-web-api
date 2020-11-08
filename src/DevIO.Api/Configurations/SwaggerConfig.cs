@@ -12,7 +12,6 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace DevIO.Api.Configuration
 {
-    // Classe principal de configuração do swagger
     public static class SwaggerConfig
     {
         public static IServiceCollection AddSwaggerConfig(this IServiceCollection services)
@@ -32,7 +31,6 @@ namespace DevIO.Api.Configuration
                     Type = SecuritySchemeType.ApiKey
                 });
 
-                // Configuração de autenticação e autoraização swagger
                 c.AddSecurityRequirement(new OpenApiSecurityRequirement
                 {
                     {
@@ -54,13 +52,10 @@ namespace DevIO.Api.Configuration
 
         public static IApplicationBuilder UseSwaggerConfig(this IApplicationBuilder app, IApiVersionDescriptionProvider provider)
         {
-            // Uso do middleware que restringe acesso a documentação do swagger a usuários não logados
-            //app.UseMiddleware<SwaggerAuthorizedMiddleware>();
             app.UseSwagger();
             app.UseSwaggerUI(
                 options =>
                 {
-                    // Ao gerar a UI da DOC, gera um endpoint/json para cada versão da API
                     foreach (var description in provider.ApiVersionDescriptions)
                     {
                         options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
@@ -70,7 +65,6 @@ namespace DevIO.Api.Configuration
         }
     }
 
-    // Classe que estende as opções de configurações do swagger para gerar as docs e info
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
         readonly IApiVersionDescriptionProvider provider;
@@ -79,7 +73,6 @@ namespace DevIO.Api.Configuration
 
         public void Configure(SwaggerGenOptions options)
         {
-            // Estrutura de repetição que pega todas as versões da API e adiciona uma DOC para elas
             foreach (var description in provider.ApiVersionDescriptions)
             {
                 options.SwaggerDoc(description.GroupName, CreateInfoForApiVersion(description));
@@ -147,7 +140,6 @@ namespace DevIO.Api.Configuration
         }
     }
 
-    // Middleware que restringe o acesso ao swagger para usuários não logados
     public class SwaggerAuthorizedMiddleware
     {
         private readonly RequestDelegate _next;

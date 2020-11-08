@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6/FODZEHrJEInZNQrmYvuTjNJ0nTNuvPx3jKv2wB4Zif4ZlBU8MeJ1OpF/8UWXq9Qrio6MysyYmHFrd8jSYW8w==",
+  "dgSpecHash": "biHVHI30T07mJAavZuENcVHrdN6+k8FIU5lXZhjIAhIVhl+tpRaV+YZ5dkZexbqkZVVA7Q7FgWEvsum1VfxiBw==",
   "success": true,
-  "projectFilePath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj",
+  "projectFilePath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

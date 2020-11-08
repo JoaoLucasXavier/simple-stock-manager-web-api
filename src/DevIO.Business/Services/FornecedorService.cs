@@ -5,8 +5,6 @@ using app.Models;
 using DevIO.Business.Interfaces;
 using DevIO.Business.Models.Validations;
 
-//  Class service com seus métodos com suas respectivas resgras de negócios de validação que implementa IFornecedorService
-
 namespace DevIO.Business.Services
 {
     public class FornecedorService : BaseService, IFornecedorService
@@ -25,10 +23,8 @@ namespace DevIO.Business.Services
 
         public async Task<bool> Adicionar(Fornecedor fornecedor)
         {
-            // Validar o estado da entidade
             if (!ExecutarValidacao(new FornecedorValidation(), fornecedor) ||
                 !ExecutarValidacao(new EnderecoValidation(), fornecedor.Endereco)) return false;
-            // Validar se não existe fornecedor com o mesmo documento
             if (_fornecedorRepository.Buscar(f => f.Documento == fornecedor.Documento).Result.Any())
             {
                 Notificar("Já existe um fornecedor com este documento informado.");
@@ -72,10 +68,6 @@ namespace DevIO.Business.Services
             await _fornecedorRepository.Remover(id);
             return true;
         }
-
-        // "Disposable" | Implementar o método Dispose é principalmente para liberar recursos não gerenciados. Ao trabalhar com membros de instância que são implementações IDisposable , é comum fazer chamadas Dispose em cascata . Existem razões adicionais para implementar Dispose , por exemplo, para liberar memória que foi alocada, remover um item que foi adicionado a uma coleção ou sinalizar a liberação de um bloqueio que foi adquirido.
-        // https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose
-        // ? | Valida se é nulo ou não | Se _fornecedorRepository ou _enderecoRepository for null não teremos um NullHasReferenceException
 
         public void Dispose()
         {

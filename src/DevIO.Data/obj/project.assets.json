@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectUniqueName": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj",
       "projectName": "DevIO.Data",
-      "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj",
+      "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\obj\\",
+      "outputPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5759,8 +5759,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj": {
-              "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj"
+            "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj": {
+              "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj"
             }
           }
         }

@@ -67,27 +67,6 @@ namespace DevIO.Api.V1.Controllers
             return CustomResponse(produtoViewModel);
         }
 
-        /*  -> Este método não está funcionando porque o request aceita somente JSON, e o upload é um binário IFormFile
-            -> Para funcionar devemos receber o JSON e IFormFile de forma separada
-            -> Outra alternativa é Usar um extension que permite receber o JSON E O IFormFile juntas na requisição
-            -> Nesse caso criamos a extension: Extensions\JsonWithFilesFormDataModelBinder.cs, porém funciona somente no ASP NET CORE 2.2
-            -> Apos criar a Extension, devemos decorar a classe ProdutoImagemViewModel com essa extension */
-        [HttpPost("Adicionar")]
-        public async Task<ActionResult<ProdutoViewModel>> AdicionarAlternativo(ProdutoImagemViewModel produtoViewModel)
-        {
-            if (!ModelState.IsValid) return CustomResponse(ModelState);
-            var imgPrefixo = Guid.NewGuid() + "_";
-            if (!await UploadArquivoAlternativo(produtoViewModel.ImagemUpload, imgPrefixo))
-            {
-                return CustomResponse(ModelState);
-            }
-            produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.FileName;
-            await _produtoService.Adicionar(_mapper.Map<Produto>(produtoViewModel));
-            return CustomResponse(produtoViewModel);
-        }
-
-        // [RequestSizeLimit(40000000)] // Limite o tamanho de upload em 40MB
-        // [DisableRequestSizeLimit] // Desabilita o limite de tamanho de upload
         [HttpPost("imagem")]
         public ActionResult AdicionarImagem(IFormFile file)
         {
@@ -131,13 +110,11 @@ namespace DevIO.Api.V1.Controllers
             return CustomResponse();
         }
 
-        // Método que encapsula a busca de 'produtos e fornecedores pelo id'
         private async Task<ProdutoViewModel> ObterProduto(Guid id)
         {
             return _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoFornecedor(id));
         }
 
-        // Método que encapsula o upload de imagens de um produto
         private bool UploadArquivo(string arquivo, string imgNome)
         {
             if (string.IsNullOrEmpty(arquivo))
@@ -156,7 +133,6 @@ namespace DevIO.Api.V1.Controllers
             return true;
         }
 
-        // Método alternativo que encapsula o upload de imagens de um produto via streaming
         private async Task<bool> UploadArquivoAlternativo(IFormFile arquivo, string imgPrefixo)
         {
             if (arquivo == null || arquivo.Length == 0)

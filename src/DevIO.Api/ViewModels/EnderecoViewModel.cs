@@ -6,7 +6,6 @@ namespace DevIO.Api.ViewModels
 {
     public class EnderecoViewModel
     {
-
         [Key]
         public Guid Id { get; set; }
 

@@ -34,12 +34,10 @@ namespace DevIO.Api
 
             services.WebApiConfig();
 
-            // Importar configuração do Swagger
             services.AddSwaggerConfig();
 
             services.ResolveDependencies();
 
-            // Monitoramento api 'HEALTH CHECKS'
             services.AddHealthChecks()
                 .AddCheck("Produtos", new SqlServerHealthCheck(Configuration.GetConnectionString("DefaultConnection")))
                 .AddSqlServer(Configuration.GetConnectionString("DefaultConnection"), name: "BancoSQL");
@@ -54,7 +52,6 @@ namespace DevIO.Api
             }
             else
             {
-                // app.UseCors("Production");
                 app.UseHsts();
             }
 
@@ -64,7 +61,6 @@ namespace DevIO.Api
 
             app.UseAuthorization();
 
-            // Importar configuração do Swagger
             app.UseSwaggerConfig(provider);
         }
     }

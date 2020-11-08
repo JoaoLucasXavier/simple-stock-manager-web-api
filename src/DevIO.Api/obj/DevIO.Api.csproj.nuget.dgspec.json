@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Api\\DevIO.Api.csproj": {}
+    "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Api\\DevIO.Api.csproj": {}
   },
   "projects": {
-    "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Api\\DevIO.Api.csproj": {
+    "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Api\\DevIO.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectUniqueName": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Api\\DevIO.Api.csproj",
         "projectName": "DevIO.Api",
-        "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Api\\DevIO.Api.csproj",
+        "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Api\\DevIO.Api.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Api\\obj\\",
+        "outputPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj": {
-                "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj"
+              "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj": {
+                "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj": {
+    "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectUniqueName": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj",
         "projectName": "DevIO.Business",
-        "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj",
+        "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\obj\\",
+        "outputPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj": {
+    "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectUniqueName": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj",
         "projectName": "DevIO.Data",
-        "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\DevIO.Data.csproj",
+        "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\DevIO.Data.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Data\\obj\\",
+        "outputPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -220,8 +220,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj": {
-                "projectPath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj"
+              "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj": {
+                "projectPath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj"
               }
             }
           }

@@ -20,7 +20,6 @@ namespace DevIO.Api.V2.Controllers
         [HttpGet]
         public string Valor()
         {
-
             //throw new Exception("Error");
 
             //try
@@ -32,18 +31,8 @@ namespace DevIO.Api.V2.Controllers
             //{
             //    e.Ship(HttpContext);
             //}
-
-            // Logging recomendado para ambiente de desenvolvimento
-            _logger.LogTrace("Log de Trace");
-            _logger.LogDebug("Log de Debug");
-
-            // Logging que pode ser usado em ambiente de produção
-            _logger.LogInformation("Log de Informação");
-            _logger.LogWarning("Log de Aviso");
-            _logger.LogError("Log de Erro");
-            _logger.LogCritical("Log de Problema Critico");
-
-            return "Sou a V2";
+            _logger.LogInformation("API 2 version");
+            return "API 2 version";
         }
     }
 }

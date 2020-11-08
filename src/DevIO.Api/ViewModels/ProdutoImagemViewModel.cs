@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Http;
 
 namespace DevIO.Api.ViewModels
 {
-    // [ModelBinder(typeof(JsonWithFilesFormDataModelBinder), Name = "produto")] // DEPRECATED
     public class ProdutoImagemViewModel
     {
         [Key]

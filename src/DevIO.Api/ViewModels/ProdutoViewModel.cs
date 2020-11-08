@@ -10,7 +10,6 @@ namespace DevIO.Api.ViewModels
 {
     public class ProdutoViewModel
     {
-
         [Key]
         public Guid Id { get; set; }
 

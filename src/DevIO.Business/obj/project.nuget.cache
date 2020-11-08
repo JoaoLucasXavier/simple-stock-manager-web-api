@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KlPTJge6N+4KrjBYw7SeZE7nmHUYmC31j03DaWHX8ObQCCF7se1pW7Xos7XxAERxjp86FdEshE+vGjrYrYcCFw==",
+  "dgSpecHash": "yeoUXO2dAiPUjFU61Uq8IzwauYZHLBLhpdovfmOZlfGogcTCRiAOx7h7Hifzug4SMYxhCPMxr1em+BA7w+AD9Q==",
   "success": true,
-  "projectFilePath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Business\\DevIO.Business.csproj",
+  "projectFilePath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Business\\DevIO.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512"
   ],

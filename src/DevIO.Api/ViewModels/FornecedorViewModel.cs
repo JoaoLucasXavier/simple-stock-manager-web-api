@@ -8,7 +8,6 @@ namespace DevIO.Api.ViewModels
 {
     public class FornecedorViewModel
     {
-
         [Key]
         public Guid Id { get; set; }
 

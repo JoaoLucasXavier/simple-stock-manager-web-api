@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+APALLcAnnt7nXs3SysYmXSvfUGqNguHJJs5gGjrZ3IJi5qA/cUaPK9SljKRKaGg3M3HbBLXgFKSJKsOESirA==",
+  "dgSpecHash": "ph0OZmriE4562N+tYl9khIDYFYnvnk77QlI2yYjYVVKWIP2ldj8C8xv1NR5N7oHHjy2mHKtgheaSR1hYrRcUgA==",
   "success": true,
-  "projectFilePath": "C:\\labs\\net-lab\\04-rest-api-net-core\\99-projects\\01-api-gerente-de-estoque-simples\\03-api-gerente-de-estoque-simples-Versionamento-documentacao-Loggin-e-monitoramento\\app\\src\\DevIO.Api\\DevIO.Api.csproj",
+  "projectFilePath": "C:\\sistems\\simple-stock-manager-web-api\\src\\DevIO.Api\\DevIO.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\3.1.1\\aspnetcore.healthchecks.sqlserver.3.1.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\aspnetcore.healthchecks.ui\\3.1.0\\aspnetcore.healthchecks.ui.3.1.0.nupkg.sha512",
